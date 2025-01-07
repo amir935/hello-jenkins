@@ -64,7 +64,7 @@
 						</properties>
 
 					</cloudhub2Deployment>
-					<classifier>---- select project type ----</classifier>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -119,6 +119,10 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
+			<pluginRepository>
+    <id>mule-public</id>
+    <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+  </pluginRepository>
 	</pluginRepositories>
 
 </project>
