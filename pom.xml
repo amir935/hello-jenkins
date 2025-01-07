@@ -34,8 +34,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<organizationId>773ec503-c40f-4bb7-b891-34e11e40c432</organizationId>
-					<environmentId>f5f5d0be-37e5-4b2c-ac52-e1a46c5b45ee</environmentId>
+					
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
@@ -74,7 +73,7 @@
     <repository>
       <id>Repository</id>
       <name>Corporate Repository</name>
-      <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${project.groupId}/maven</url>
+      <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/773ec503-c40f-4bb7-b891-34e11e40c432/maven</url>
       <layout>default</layout>
     </repository>
   </distributionManagement>
